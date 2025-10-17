@@ -4,15 +4,13 @@
     // See also https://aka.ms/tsconfig/module
     "module": "nodenext",
     "target": "esnext",
-    "types": ["node"],
     "newLine": "crlf",
     "preserveConstEnums": true,
     "removeComments": true,
-    // "types": [],
     // For nodejs:
-    "lib": ["esnext"],
-    "moduleResolution": "nodenext",
-    // and npm install -D @types/node
+    // "types": ["node"],
+    // "lib": ["esnext"],
+    // "moduleResolution": "nodenext",
 
     // Style Options
     // "noImplicitReturns": true,

@@ -6,6 +6,10 @@
     "rootDir": "./src",
     "outDir": "./dist",
 
+    // For nodejs:
+    "types": ["node"],
+    "lib": ["esnext"],
+    "moduleResolution": "nodenext",
   },
   "include": [
     "src/**/*"
